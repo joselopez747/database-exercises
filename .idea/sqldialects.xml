@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/albums_migration.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/albums_seeder.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/blog-app.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/select_exercises.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/update_exercises.sql" dialect="GenericSQL" />
   </component>
 </project>
