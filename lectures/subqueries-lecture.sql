@@ -1,0 +1,22 @@
+USE employees;
+
+SELECT emp_no FROM dept_manager;
+
+
+#birthdates of anybody thats ever been manager
+SELECT birth_date
+FROM employees
+WHERE emp_no IN (
+    SELECT emp_no FROM dept_manager
+    );
+
+
+USE codeup_test_db;
+
+SELECT * FROM preferences;
+
+
+# subquery in an insert statement
+INSERT INTO preferences (person_id, album_id) VALUES ((SELECT id FROM persons WHERE first_name = 'Tareg'), (SELECT id FROM albums WHERE name = 'Rumours'));
+
+# subquery in a select statement
