@@ -3,8 +3,21 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/albums_migration.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/albums_seeder.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/aliases_exercises.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/blog-app.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/database_design.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/functions_exercises.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/group_by_exercises.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/indexes_exercises.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/join_exercises.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/lectures/clauses_lecture.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/lectures/index_lecture.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/lectures/join_test.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/lectures/joins_lecture.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/lectures/subqueries-lecture.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/select_exercises.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/subqueries_exercises.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/update_exercises.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/where_exercises.sql" dialect="MySQL" />
   </component>
 </project>

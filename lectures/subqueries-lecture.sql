@@ -20,3 +20,4 @@ SELECT * FROM preferences;
 INSERT INTO preferences (person_id, album_id) VALUES ((SELECT id FROM persons WHERE first_name = 'Tareg'), (SELECT id FROM albums WHERE name = 'Rumours'));
 
 # subquery in a select statement
+SELECT first_name, name From persons JOIN preferences p on persons.id = p.person_id JOIN albums a ON p.album_id = a.id WHERE first_name = 'Tareg';
