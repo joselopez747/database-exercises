@@ -32,5 +32,10 @@ WHERE last_name LIKE '%q%'
 GROUP BY last_name;
 
 
+# 7
+SELECT COUNT(*), gender
+FROM employees
+WHERE first_name IN ('Irena', 'Vidya', 'Maya')
+GROUP BY gender;
 
 
